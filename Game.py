@@ -23,7 +23,7 @@ def slow_print(text, delay=0.06):
 
 #Actual Game
 def guessing_game():
-    number = random.randint(1, 2) #Number Can be 1-100
+    number = random.randint(1, 100) #Number Can be 1-100
     attempts = 0     
     
     slow_print("Welcome to LowFatCodes Guessing Game")
